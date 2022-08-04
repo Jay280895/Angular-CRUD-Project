@@ -9,7 +9,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTableModule} from '@angular/material/table';
-import { StudentComponent } from './student/student.component';
+import {StudentComponent} from './student/student.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { StudentComponent } from './student/student.component';
     MatButtonModule,
     MatInputModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

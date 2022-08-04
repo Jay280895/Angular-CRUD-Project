@@ -1,0 +1,12 @@
+{
+     "students": [
+       { "id": 1, "name": "json-server", "age": "21", "mobile":1234567809, "email": "typecode@gmail.com","address":"Bangalore" }
+     
+     ],
+
+
+     "comments": [
+       { "id": 1, "body": "some comment", "postId": 1 }
+     ],
+     "profile": { "name": "typicode" }
+   }
