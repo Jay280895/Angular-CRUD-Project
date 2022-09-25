@@ -7,7 +7,7 @@ import { Student } from '../models/student';
   providedIn: 'root'
 })
 export class HttpDataService {
-  base_Url = 'http://localhost:3000/students'
+  base_Url = 'http://localhost:4200/assets/data.json'
   // base_Url: string;
   constructor(private _http: HttpClient) { }
   // Http options

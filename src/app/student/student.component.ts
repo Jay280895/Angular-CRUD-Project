@@ -30,9 +30,15 @@ export class StudentComponent implements OnInit {
     // fetch all students on page load
     this.getAllStudents();
   }
+  onSubmit(forval :NgForm) {
+    console.log(forval.value);  // { first: '', last: '' }
+    
+    console.log("Form Json Value+"+JSON.stringify(forval.value));
+  }
   getAllStudents() {
     this.httpDataService.getList().subscribe((response: any) => {
       this.dataSource.data = response;
+    
     }
     );
     // throw new Error('Method not implemented.');

@@ -12,12 +12,14 @@ import {MatTableModule} from '@angular/material/table';
 import {StudentComponent} from './student/student.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { ImageBannerComponent } from './image-banner/image-banner.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    ImageBannerComponent
   ],
   imports: [
     BrowserModule,
